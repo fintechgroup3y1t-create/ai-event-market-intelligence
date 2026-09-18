@@ -73,7 +73,7 @@ export default function StockDetailPage({ params }: { params: { symbol: string }
         </div>
         <p className="mt-3 text-xs leading-relaxed text-muted">
           Impact Score measures the estimated relevance and severity of this
-          event for this stock's sector — it does not represent expected
+          event for this stock&apos;s sector — it does not represent expected
           stock return. Historical Abnormal Return is historical
           event-window information, not an expected future return.
         </p>
@@ -113,3 +113,4 @@ export default function StockDetailPage({ params }: { params: { symbol: string }
     </div>
   );
 }
+
