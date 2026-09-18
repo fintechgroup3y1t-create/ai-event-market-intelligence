@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 11 15 20;
+  --surface: 17 24 33;
+  --surface-hover: 22 31 43;
+  --border: 32 42 53;
+  --foreground: 245 247 250;
+  --muted: 139 152 168;
+
+  --positive: 34 197 94;
+  --negative: 239 68 68;
+  --neutral: 156 163 175;
+  --mixed: 245 158 11;
+  --ai-accent: 124 108 246;
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+}
